@@ -1,4 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Gochi+Hand&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@100;300&family=Sofia&display=swap')
-body {
-    
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Gochi+Hand&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@100;300&family=Sofia&display=swap')
+body{
+    padding
+} */
+
+body{
+    padding: 1rem;
+    min-height: 70vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 130%;
+}
+
+@media only screen and (min-width: 500px) {
+    body{
+        min-height: 100vh;
+    }
 }
